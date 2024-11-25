@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header p {
+    margin: 0;
+}
+
+.header a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+.header{
+    background-color: rgb(227, 15, 132);
+    padding: 20px;
+    text-align: justify;
+}
+h1{
+    text-align: center;
+}
+
+.menu{
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    text-align: center;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 10px 15px;
+    position: relative;
+}
+
+.menu ul li a{
+    font-size: 1.53em;
+}
+
+.menu ul li ul li a{
+    color: white;
+}
+.menu ul li ul{
+    display: none;
+    font-size: 1.1em;
+}
+
+.menu li:hover ul{
+    background-color: black;
+    display: block;
+    width: 10em;
+    position: absolute;
+    top : 40;
+    left: 0;
+}
+
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu .danhsach{
+    font-size: 11px;
+    text-align: left;
+}
+
+.menu .danhsach li{
+    color: white;
+    width: 80px;
+}
+
+.menu .danhsach li a{
+    color: white;
+}
+
+.logo-search{
+    margin-top: 50px;
+}
+
+.logo-search p a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    margin: 10px;
+    background-color: white;
+}
+
+.list-product{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+h1{
+    margin: 20px 0;
+    font-size: 22px;
+}
+
+.item-image{
+    overflow: hidden;
+    display: block;
+}
+
+.item-image img:hover{
+    transform: scale(1.09);
+    transition: transform 0.3s linear;
+}
+
+.item-title{
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+}
+
+.item-title :hover{
+   color: red; 
+}
+
+.item-price{
+    margin-top: 8px 0;
+    display: flex;
+    justify-content: space-between;
+    color: #707070;
+}
+
+.item-price span:first-child{
+    color: red;
+}
+
+.footer{
+    margin: 40px auto;
+}
+
+.footer-top{
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+ul.footer_top-list{
+    list-style: none;
+}
+
+.footer-bottom{
+    margin-top: 50px;
+    height: 200px;
+    background-color:rgb(178, 178, 178) ;
+}
+
+ul.footer_top-list li{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(237, 64, 64);
+}
